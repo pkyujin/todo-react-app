@@ -5,6 +5,7 @@ class Todo extends React.Component{
         super(props);
         this.state ={item: props.item };
     }
+    
     render(){
         return(
             <div className="Todo">
